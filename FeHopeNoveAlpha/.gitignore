@@ -12,6 +12,10 @@ dist
 dist-ssr
 *.local
 
+# Environment variables - không commit, mỗi máy tự tạo từ .env.example
+.env
+.env.local
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json

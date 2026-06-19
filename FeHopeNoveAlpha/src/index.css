@@ -1,1 +1,75 @@
-@import "tailwindcss";
+@import 'tailwindcss';
+
+/*
+ * ===== DESIGN TOKENS - SHOPEE THEME =====
+ * Tailwind v4 dùng @theme để khai báo design token ngay trong CSS,
+ * thay cho tailwind.config.js (cách của v3).
+ * Khai báo ở đây sẽ tự sinh ra class: bg-primary, text-primary, border-primary...
+ */
+@theme {
+  /* ----- Màu thương hiệu (lấy từ brand guideline Shopee) ----- */
+  --color-primary: #ee4d2d; /* Cam chủ đạo - nút mua, giá, badge */
+  --color-primary-hover: #d8431f; /* Cam đậm hơn khi hover */
+  --color-primary-light: #fff0eb; /* Cam rất nhạt - nền banner, badge giảm giá */
+
+  --color-secondary: #f53d2d; /* Đỏ-cam - dùng cho giá giảm, sale */
+  --color-accent-yellow: #ffce3d; /* Vàng - voucher, flash sale */
+
+  /* ----- Màu trung tính (nền, chữ, viền) ----- */
+  --color-text-primary: #222222; /* Chữ chính */
+  --color-text-secondary: #555555; /* Chữ phụ, mô tả */
+  --color-text-muted: #757575; /* Chữ mờ, ngày tháng, lượt bán */
+
+  --color-bg-base: #f5f5f5; /* Nền tổng thể trang - xám rất nhạt đặc trưng Shopee */
+  --color-bg-surface: #ffffff; /* Nền card, nền component */
+
+  --color-border: #e8e8e8; /* Viền mặc định, divider */
+
+  /* ----- Màu trạng thái ----- */
+  --color-success: #2db44a;
+  --color-warning: #ffce3d;
+  --color-danger: #f53d2d;
+  --color-info: #1baeae;
+
+  /* ----- Font chữ ----- */
+  /* Shopee dùng Roboto làm font chính cho toàn bộ giao diện */
+  --font-sans: 'Roboto', 'Inter', 'Helvetica Neue', Arial, sans-serif;
+
+  /* ----- Breakpoint tuỳ biến (tuỳ chọn, mặc định Tailwind đã đủ dùng) ----- */
+  --breakpoint-xs: 420px;
+}
+
+/* ===== Base reset / mặc định toàn site ===== */
+@layer base {
+  body {
+    @apply bg-bg-base text-text-primary font-sans antialiased;
+  }
+
+  /* Thanh cuộn mỏng, gọn giống các sàn TMĐT lớn */
+  ::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+  ::-webkit-scrollbar-thumb {
+    @apply bg-gray-300 rounded-full;
+  }
+  ::-webkit-scrollbar-track {
+    @apply bg-transparent;
+  }
+}
+
+/* ===== Class dùng chung lặp lại nhiều nơi ===== */
+@layer components {
+  /* Container giới hạn chiều rộng, căn giữa - dùng cho mọi section */
+  .container-shopee {
+    @apply mx-auto w-full max-w-[1200px] px-4;
+  }
+
+  /* Line-clamp tên sản phẩm 2 dòng - rất hay dùng trong card sản phẩm */
+  .line-clamp-product {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+}

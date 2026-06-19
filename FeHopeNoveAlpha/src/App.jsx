@@ -1,13 +1,8 @@
-import { useState } from 'react'
+import useRouteElements from '@/routes/useRouteElements'
 
 function App() {
-  const [count, setCount] = useState(0)
-
-  return (
-    <div className="p-10">
-      <h1 className="text-4xl font-bold text-green-500">Hello everyone, we are going to code in here</h1>
-    </div>
-  )
+  const routeElements = useRouteElements()
+  return routeElements
 }
 
 export default App
