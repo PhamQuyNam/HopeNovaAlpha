@@ -1,0 +1,6 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+sammishop.com	TRUE	/	FALSE	1999999999	_landing_page	%252Fpages%252Fdeal-sieu-hot
+sammishop.com	TRUE	/	FALSE	1999999999	.AspNetCore.Antiforgery.IM8xoGDf8MU	CfDJ8FyFPV59mBtNhmQGz0fYZt-ALbP-C9-nF1cqXyqyNWDaZsNY6HA-P0KBSNa_WMY4IBGCKTUtJ-NeQ4ubAf8-g6qfwimHRaNV3QQJfalWEs5nWNInR2B-1LlLeqm9ZJFwzH1581vEe9PfGDLC26LLVbI
+sammishop.com	TRUE	/	FALSE	1999999999	samesite	strict
+

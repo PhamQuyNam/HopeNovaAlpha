@@ -1,0 +1,34 @@
+HTTrack3.49-2+htsswf+htsjava launched on Fri, 19 Jun 2026 01:35:37 at https://sammishop.com/pages/deal-sieu-hot +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://sammishop.com/pages/deal-sieu-hot -O1 "D:\MyProject\clone\copy" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+01:43:50	Error: 	"Not Found" (404) at link theme.hstatic.net/200000551679/1001345525/14/no_image.jpg?v=1469 (from https://sammishop.com/pages/deal-sieu-hot)
+01:43:50	Error: 	"Bad Request" (400) at link https://www.googletagmanager.com/gtm.js?id= (from https://sammishop.com/pages/deal-sieu-hot)
+02:11:55	Error: 	"Not Found" (404) at link https://fundiin.vn/ecom.jpg (from https://sammishop.com/pages/deal-sieu-hot)
+02:11:55	Warning: 	Retry after error 500 (Internal Server Error) at link https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js (from https://sammishop.com/pages/deal-sieu-hot)
+02:11:55	Error: 	"Not Found" (404) at link theme.hstatic.net/200000551679/1001345525/14/color_2.png?v=1469 (from theme.hstatic.net/200000551679/1001345525/14/product_infor_style.scss.css?v=1469)
+02:11:55	Error: 	"Not Found" (404) at link theme.hstatic.net/200000551679/1001345525/14/color_4.png?v=1469 (from theme.hstatic.net/200000551679/1001345525/14/product_infor_style.scss.css?v=1469)
+02:11:55	Error: 	"Not Found" (404) at link theme.hstatic.net/200000551679/1001345525/14/color_5.png?v=1469 (from theme.hstatic.net/200000551679/1001345525/14/product_infor_style.scss.css?v=1469)
+02:11:55	Error: 	"Not Found" (404) at link theme.hstatic.net/200000551679/1001345525/14/color_7.png?v=1469 (from theme.hstatic.net/200000551679/1001345525/14/product_infor_style.scss.css?v=1469)
+02:11:55	Error: 	"Not Found" (404) at link theme.hstatic.net/200000551679/1001345525/14/color_8.png?v=1469 (from theme.hstatic.net/200000551679/1001345525/14/product_infor_style.scss.css?v=1469)
+02:11:55	Error: 	"Not Found" (404) at link theme.hstatic.net/200000551679/1001345525/14/color_10.png?v=1469 (from theme.hstatic.net/200000551679/1001345525/14/product_infor_style.scss.css?v=1469)
+02:11:55	Error: 	"Not Found" (404) at link https://sammishop.com/pages/signals/config/ (from https://connect.facebook.net/en_US/fbevents.js)
+02:11:55	Error: 	"Not Found" (404) at link https://sammishop.com/pages/t (from https://connect.facebook.net/en_US/fbevents.js)
+02:11:55	Error: 	"Not Found" (404) at link https://sammishop.com/pages/e (from https://connect.facebook.net/en_US/fbevents.js)
+02:11:55	Error: 	"Not Found" (404) at link https://sammishop.com/pages/signals/plugins/ (from https://connect.facebook.net/en_US/fbevents.js)
+02:11:55	Error: 	"Not Found" (404) at link https://sammishop.com/pages/schema.org/ (from https://connect.facebook.net/en_US/fbevents.js)
+02:11:55	Error: 	"Not Found" (404) at link https://sammishop.com/pages/t.resolvedLink (from https://connect.facebook.net/en_US/fbevents.js)
+02:11:55	Error: 	"Not Found" (404) at link https://sammishop.com/pages/o (from https://connect.facebook.net/en_US/fbevents.js)
+02:11:55	Error: 	"Not Found" (404) at link https://sammishop.com/signals/iwl.js (from https://connect.facebook.net/en_US/fbevents.js)
+02:11:55	Error: 	"Not Found" (404) at link https://sammishop.com/signals/iwl.js?pixel_id= (from https://connect.facebook.net/en_US/fbevents.js)
+02:11:55	Error: 	"Not Found" (404) at link https://sammishop.com/pages/n.dl (from https://connect.facebook.net/en_US/fbevents.js)
+02:11:55	Error: 	"Not Found" (404) at link https://sammishop.com/pages/n.rl (from https://connect.facebook.net/en_US/fbevents.js)
+02:13:16	Warning: 	Retry after error 500 () at link https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js (from https://sammishop.com/pages/deal-sieu-hot)
+02:13:16	Error: 	"" (500) after 2 retries at link https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js (from https://sammishop.com/pages/deal-sieu-hot)
+
+HTTrack Website Copier/3.49-2 mirror complete in 37 minutes 39 seconds : 195 links scanned, 171 files written (58754959 bytes overall) [55570101 bytes received at 24599 bytes/sec], 6875464 bytes transferred using HTTP compression in 53 files, ratio 18%, 2.0 requests per connection
+(21 errors, 2 warnings, 0 messages)
